@@ -15,10 +15,10 @@ class profile:
         #self.key_bindings = {K_RIGHT: 'right', K_LEFT: 'left', K_UP: 'up', K_a: 'shoot',
         #                     K_F8: 'save', K_ESCAPE: 'escape', K_RETURN: 'chat', K_TAB: 'tab', K_s: 'dash'}
         #controls should be here, but should keybindings?  Yes, I think so.
-        #self.controls = {'rightDOWN': self.goright, 'leftDOWN': self.goleft, 'upDOWN': self.jump, 'rightUP': self.stopgoright,
-        #                 'leftUP': self.stopgoleft, 'upUP': self.stopjump, 'shootUP': self.shoot, 'centerxDOWN': self.joystop,
-        #                 'saveDOWN': self.save, 'escapeDOWN': self.escape, 'chatDOWN': self.chat, 'tabDOWN': self.tab,
-        #                 'tabUP': self.untab, 'shootDOWN': self.charge, 'dashDOWN': self.dash, 'dashUP': self.stopdash}
+        self.controls = {'rightDOWN': self.goright, 'leftDOWN': self.goleft, 'upDOWN': self.jump, 'rightUP': self.stopgoright,
+                         'leftUP': self.stopgoleft, 'upUP': self.stopjump, 'shootUP': self.shoot, 'centerxDOWN': self.joystop,
+                         'saveDOWN': self.save, 'escapeDOWN': self.escape, 'chatDOWN': self.chat, 'tabDOWN': self.tab,
+                         'tabUP': self.untab, 'shootDOWN': self.charge, 'dashDOWN': self.dash, 'dashUP': self.stopdash}
         #self.complexcontrols = {}
     def save(self):
         try:
